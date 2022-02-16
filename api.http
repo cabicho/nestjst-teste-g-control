@@ -1,0 +1,9 @@
+GET http://localhost:3800/tweets
+
+###
+POST http://localhost:3800/tweets
+Content-type: aplication/json
+
+{
+    "text": "eu sou o que sou"
+}
